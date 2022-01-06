@@ -4,7 +4,7 @@
 * [Installation](#Installation)
 * [License](#License)
 
-# Getting Started <a name="GettingStarted"></a>
+# Getting Started Guide<a name="GettingStarted"></a>
 
 TheraForge is an open low-code SDK for the rapid application development (RAD) of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
 It provides support for offline-first storage integrated with a secure enterprise-grade BaaS (Backend-as-a-Service), which provides cloud connectivity and synchronization to apps.
