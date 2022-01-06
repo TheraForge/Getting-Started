@@ -72,4 +72,4 @@ For a newbie, MagicBox is the perfect starting point.
 
 # License <a name="License"></a>
 
-This project is made available under the terms of a modified BSD license. See the [LICENSE](../../../OTFToolBox/LICENSE.md) file.
+This project is made available under the terms of a modified BSD license. See the [LICENSE](../../../OTFToolBox/blob/main/LICENSE.md) file.
