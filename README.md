@@ -6,16 +6,12 @@
 
 # Getting Started Guide<a name="GettingStarted"></a>
 
-TheraForge is an open low-code SDK for the rapid application development (RAD) of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
-It provides support for offline-first storage integrated with a secure enterprise-grade BaaS (Backend-as-a-Service), which provides cloud connectivity and synchronization to apps.
-A sample cloud-enabled app can be installed, used as development model and customized for no-code prototyping.
-The client SDK also integrates with a web-based dashboard for medical data collection and display, patient/doctor interaction and virtual care management.
+**TheraForge** is an *open low-code* SDK for the *rapid application development (RAD)* of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
+It provides support for *offline-first* storage integrated with a *secure enterprise-grade BaaS (Backend-as-a-Service)*, which provides cloud connectivity and synchronization to apps.
+A sample cloud-enabled app can be installed, used as development model and customized for *no-code prototyping*.
+The client SDK also integrates with a *web-based dashboard* for medical data collection and display, patient/doctor interaction and virtual care management.
 
 You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
-
-Hippocrates Technologies provides paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities. You can use the TheraForge Client Registration form for your queries:
-
-[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)
 
 TheraForge's main components are:
 
@@ -24,6 +20,12 @@ TheraForge's main components are:
 3. A web-based doctor/patient dashboard.
 4. An analytics portal to review server- and client-related statistics.
 5. A no-code template app called [MagicBox](../../../OTFMagicBox).
+
+Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities. You can use the *TheraForge Client Registration form* for your queries:
+
+[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)
+
+**Note: To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use the registration form to obtain an API key.**
 
 # TheraForge Features <a name="Features"></a>
 
