@@ -49,7 +49,7 @@ TheraForge supports the following features:
 * FHIR support
 * Dependency manager support
 * Notification protocol based on Server-Sent Events (SSE) technology
-* *HIPAA and GDPR compliant* encryption at rest and in flight (TLS 1.3)
+* *HIPAA and GDPR compliant* encryption at rest and in flight (TLS 1.3-only with Forward Secrecy)
 * *HIPAA and GDPR compliant* authentication
 * Sign in with Apple and with Google
 * Passwordless sign-in based on TouchID or FaceID
@@ -57,6 +57,8 @@ TheraForge supports the following features:
 * Automatic and manual code security analysis (see report in the figure below)
 
 <p align="center"><img src="Docs/1-CloudBox-sonarqube-overview.png" width=100% height=100%></p>
+
+<p align="center"><img src="Docs/2-TLS-1.3-Support.png" width=100% height=100%></p>
 
 See also:
 
