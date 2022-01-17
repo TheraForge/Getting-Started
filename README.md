@@ -1,15 +1,27 @@
 # Table of Contents
+* [Overview](#Overview)
 * [Getting Started](#GettingStarted)
 * [Features](#Features)
 * [Installation](#Installation)
 * [License](#License)
 
-# Getting Started Guide<a name="GettingStarted"></a>
+# Overview<a name="Overview"></a>
 
 **TheraForge** is an *open low-code* SDK for the *rapid application development (RAD)* of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
-It provides support for *offline-first* storage integrated with a *secure enterprise-grade BaaS (Backend-as-a-Service)*, which provides cloud connectivity and synchronization to apps.
-A sample cloud-enabled app can be installed, used as development model and customized for *no-code prototyping*.
+It provides support for *offline-first* storage integrated with a *secure enterprise-grade BaaS (Backend-as-a-Service)*, which provides cloud connectivity, storage and synchronization to the apps.
+
+It's the result of 1+ years of development and incorporates 250K+ lines of code distributed into 7 frameworks, with an associated no-code template app:
+
+* A cloud client framework for interconnection to TheraForge’s CloudBox serverless service (BaaS): [OTFCloudClientAPI](../../../OTFCloudClientAPI)
+* Enterprise-grade digital health frameworks: [OTFCareKit](../../../OTFCareKit), [OTFResearchKit](../../../OTFResearchKit)
+* Enterprise-grade persistent storage and synchonization frameworks: [OTFCloudantStore](../../../OTFCloudantStore), [OTFCDTDatastore](../../../OTFCDTDatastore)
+* A templating framework for app customization and styling: [OTFTemplateBox](../../../OTFTemplateBox)
+
+* A sample cloud-enabled app can be installed, used as development model and customized for *no-code prototyping*.
+
 The client SDK also integrates with a *web-based dashboard* for medical data collection and display, patient/doctor interaction and virtual care management.
+
+# Getting Started Guide<a name="GettingStarted"></a>
 
 You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
 
