@@ -21,6 +21,8 @@ It's the result of 1+ years of development and incorporates 250K+ lines of code 
 
 The client SDK also integrates with a *web-based dashboard* for medical data collection and display, patient/doctor interaction and virtual care management.
 
+<p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=100% height=100%></p>
+
 # Getting Started Guide<a name="GettingStarted"></a>
 
 You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
