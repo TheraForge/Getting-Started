@@ -8,20 +8,25 @@
 # Overview<a name="Overview"></a>
 
 **TheraForge** is an *open low-code* SDK for the *rapid application development (RAD)* of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
-It provides support for *offline-first* storage integrated with a *secure enterprise-grade BaaS (Backend-as-a-Service)*, which provides cloud connectivity, storage and synchronization to the apps.
 
-It's the result of 1+ years of development and incorporates 250K+ lines of code distributed into 7 frameworks, with an associated no-code template app:
+It provides support for **offline-first** storage integrated with a **secure enterprise-grade BaaS (Backend-as-a-Service)**, which provides cloud connectivity, storage and synchronization to the apps.
 
-* A cloud client framework for interconnection to TheraForge’s CloudBox serverless service (BaaS): [OTFCloudClientAPI](../../../OTFCloudClientAPI)
+It's the result of 1+ years of development and incorporates **250K+ lines of code** distributed into **7 frameworks**, with an associated **no-code template app**:
+
+* A cloud client framework for interconnection to TheraForge’s CloudBox **serverless service (BaaS)**: [OTFCloudClientAPI](../../../OTFCloudClientAPI)
 * Enterprise-grade digital health frameworks: [OTFCareKit](../../../OTFCareKit), [OTFResearchKit](../../../OTFResearchKit)
 * Enterprise-grade persistent storage and synchonization frameworks: [OTFCloudantStore](../../../OTFCloudantStore), [OTFCDTDatastore](../../../OTFCDTDatastore)
 * A templating framework for app customization and styling: [OTFTemplateBox](../../../OTFTemplateBox)
 
-* A sample cloud-enabled app can be installed, used as development model and customized for *no-code prototyping*.
+* A sample cloud-enabled app can be installed, used as development model and customized for **no-code prototyping**.
 
-The client SDK also integrates with a *web-based dashboard* for medical data collection and display, patient/doctor interaction and virtual care management.
-
-<p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=100% height=100%></p>
+The client SDK also integrates with a **web-based dashboard** for medical data collection and display, patient/doctor interaction and virtual care management.
+<br />
+<br />
+The overall architecture is described in the following figure:
+<br />
+<br />
+<p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=80% height=80%></p>
 
 # Getting Started Guide<a name="GettingStarted"></a>
 
@@ -37,7 +42,7 @@ TheraForge's main components are:
 
 Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities. You can use the *TheraForge Client Registration form* for your queries:
 
-[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)
+**[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)**
 
 **Note: To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use the registration form to obtain an API key.**
 
@@ -69,7 +74,10 @@ TheraForge supports the following features:
 * Passwordless sign-in based on TouchID or FaceID
 * Analytics dashboard
 * Automatic and manual code security analysis (see report in the figure below)
-
+<br />
+The code is analyzed and tested for security vulnerabilities and the use of TLS 1.3 with forward secrecy is verified:
+<br />
+<br />
 <p align="center"><img src="Docs/1-CloudBox-sonarqube-overview.png" width=100% height=100%></p>
 
 <p align="center"><img src="Docs/2-TLS-1.3-Support.png" width=100% height=100%></p>
