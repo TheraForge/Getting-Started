@@ -76,6 +76,9 @@ TheraForge supports the following features:
 * Passwordless sign-in based on TouchID or FaceID
 * Analytics dashboard
 * Automatic and manual code security analysis (see report in the figure below)
+
+**Much more still to come...**
+
 <br />
 The code is analyzed and tested for security vulnerabilities and the use of TLS 1.3 with forward secrecy is verified:
 <br />
