@@ -1,13 +1,13 @@
 # Getting Started Documentation
 
 # Table of Contents
-* [Overview](#Overview)
-* [Getting Started](#GettingStarted)
-* [Features](#Features)
-* [Installation](#Installation)
-* [License](#License)
+* [Overview](#overview)
+* [Getting Started](#getting-started-guide)
+* [Features](#theraforge-features)
+* [Installation](#installation)
+* [License](#license)
 
-# Overview<a name="Overview"></a>
+# Overview
 
 **TheraForge** is an *open low-code* SDK for the *rapid application development (RAD)* of digital health solutions running on Apple iOS for the iPhone and Apple Watch.
 
@@ -30,14 +30,14 @@ The overall architecture is described in the following figure:
 <br />
 <p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=80% height=80%></p>
 
-# Getting Started Guide<a name="GettingStarted"></a>
+# Getting Started Guide
 
 You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
 
 TheraForge's main components are:
 
 1. A powerful modular SDK for app development called [ToolBox](../../../OTFToolBox).
-2. A multi-cloud backend service called CloudBox (see the [Cloud Setup](../../../OTFToolBox) section).
+2. A multi-cloud backend service called CloudBox (see the [Cloud Setup](../../../OTFToolBox#theraforge-cloud-setup) section).
 3. A web-based doctor/patient dashboard.
 4. An analytics portal to review server- and client-related statistics.
 5. A no-code template app called [MagicBox](../../../OTFMagicBox).
@@ -48,7 +48,7 @@ Hippocrates Technologies provides free and paid tiers for the use of the BaaS se
 
 **Note: To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use the registration form to obtain an API key.**
 
-# TheraForge Features <a name="Features"></a>
+# TheraForge Features
 
 TheraForge supports the following features:
 
@@ -93,7 +93,7 @@ See also:
 
 [ToolBox Features](../../../OTFToolBox#Features)
 
-# Installation <a name="Installation"></a>
+# Installation
 
 To install MagicBox or ToolBox, you can refer to the dedicated installation sections:
 
@@ -103,6 +103,6 @@ To install MagicBox or ToolBox, you can refer to the dedicated installation sect
 
 For a newbie, MagicBox is the perfect starting point.
 
-# License <a name="License"></a>
+# License
 
 This project is made available under the terms of a modified BSD license. See the [LICENSE](../../../OTFToolBox/blob/main/LICENSE.md) file.
