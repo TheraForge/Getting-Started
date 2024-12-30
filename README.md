@@ -47,18 +47,22 @@ The overall architecture is described in the following figure:
 Using a **low-code meta-platform** such as TheraForge for rapid application development of digital/mobile health solutions can achieve significant savings by streamlining processes and reducing manual coding efforts:
 
 ### Time Savings
-
+<details open><summary>Include:</summary>
+    
 1. **Rapid Prototyping**: Low-code and templating frameworks allow developers to create functional prototypes in hours or days instead of weeks or months.
 2. **Accelerated Development Cycles**: Pre-built frameworks and components can reduce development time by **up to 50–70%**, compared to building solutions from scratch.
 3. **Cross-Platform Support**: With support for iOS, web apps (beta), and Android apps (future), development efforts are consolidated, limiting integration work for multiple platforms.
 4. **Streamlined Testing and Debugging**: Pre-tested components and integrated tools reduce time spent on debugging and quality assurance.
+</details>
 
 ### Cost Savings
-
+<details open><summary>Include:</summary>
+    
 1. **Reduced Developer Hours**: Leveraging low-code tools minimizes the amount of manual coding required, leading to lower developer hours and costs for **higher-quality results**.
 2. **Smaller Development Teams**: With RAD technologies, a smaller team can accomplish what would traditionally require a larger team of developers, designers, and testers.
 3. **Reduced Maintenance Costs**:  Built-in features like off-the-self frameworks, analytics, conflict resolution, and automated synchronization reduce the impact on maintenance and troubleshooting.
 4. **Lower Infrastructure Costs**: Scalable BaaS and data lake solutions eliminate the need for custom-built backend systems, significantly lowering operational and hosting costs.
+</details>
 
 # Getting Started Guide
 
@@ -82,7 +86,8 @@ Hippocrates Technologies provides free and paid tiers for the use of the BaaS se
 # Reasons to Use TheraForge
 
 ### Technology Advantages
-
+<details open><summary>Include:</summary>
+    
 - **Optimized Design System Supporting Accessibility Technologies**: Ensures consistent, user-friendly designs compatible with accessibility tools.
 - **Accelerated Development**: Leverage pre-built frameworks to significantly reduce development time.
 - **Enterprise-Grade Solutions**: Access robust, secure, and scalable components suitable for professional healthcare applications.
@@ -92,8 +97,10 @@ Hippocrates Technologies provides free and paid tiers for the use of the BaaS se
 - **Data Security**: Take advantage of quantum-safe end-to-end encryption to ensure user data is secure at all times.
 - **Cross-Platform Potential**: Expand your application’s reach with support for web apps (beta) and Android apps (future).
 - **IoT Device Support**: Collect health data from IoT devices directly on mobile platforms, enabling advanced monitoring and analytics.
+</details>
 
 ### TheraForge Benefits
+<details open><summary>Consist in:</summary>
 
 - **Reduced Development Time**: Pre-built components and frameworks expedite the development process.
 - **Enhanced Collaboration**: Low-code environment allows both developers and less experienced contributors to participate effectively.
@@ -107,9 +114,11 @@ Hippocrates Technologies provides free and paid tiers for the use of the BaaS se
 - **Conflict Resolution**: Enjoy automated conflict resolution to maintain data integrity during synchronization.
 - **IoT Integration**: Leverage the ability to collect and process data from IoT devices for comprehensive health insights.
 - **Data Lake Capability**: Use the built-in BaaS data lake for scalable storage and analysis of extensive datasets, ensuring robust data management.
+</details>
 
 ### TheraForge Features
-
+<details open><summary>Comprise:</summary>
+    
 - **Offline-First BaaS**: TheraForge’s CloudBox provides serverless cloud connectivity, storage, and multi-device synchronization with offline-first capabilities (not just a cache!) and event management.
 - **End-to-End Encryption**: Ensure sensitive user data remains secure during transmission and storage with quantum-safe **HIPAA and GDPR compliant** encryption at rest and in flight (TLS 1.3-only with Forward Secrecy).
 - **Digital Health Frameworks**: Access enterprise-grade frameworks like CareKit and ResearchKit for health-related functionalities.
@@ -140,6 +149,7 @@ Hippocrates Technologies provides free and paid tiers for the use of the BaaS se
 - Automatic and manual code security analysis (see report in the figure below)
 
 **Much more still to come...**
+</details>
 
 # List of Components
 
