@@ -3,7 +3,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [Technology Advantages](#rad-benefits)
+2. [RAD Benefits](#rad-benefits)
     - [Time Savings](#time-savings)
     - [Cost Savings](#cost-savings)
 3. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
@@ -41,20 +41,20 @@ The overall architecture is described in the following figure:
 
 # RAD Benefits
 
-Using rapid application development (RAD) technologies such as TheraForge in digital health mobile development can achieve significant savings by streamlining processes and reducing manual coding efforts:
+Using a **low-code meta-platform** such as TheraForge for rapid application development of digital/mobile health solutions can achieve significant savings by streamlining processes and reducing manual coding efforts:
 
 ### Time Savings
 
-1. **Accelerated Development Cycles**: Pre-built frameworks and components can reduce development time by up to 50–70%, compared to building solutions from scratch.
-2. **Rapid Prototyping**: Low-code and templating frameworks allow developers to create functional prototypes in days instead of weeks or months.
-3. **Cross-Platform Support**: With support for iOS, web apps (beta), and Android apps (future), development efforts are consolidated, avoiding duplicate work for multiple platforms.
+1. **Rapid Prototyping**: Low-code and templating frameworks allow developers to create functional prototypes in hours or days instead of weeks or months.
+2. **Accelerated Development Cycles**: Pre-built frameworks and components can reduce development time by **up to 50–70%**, compared to building solutions from scratch.
+3. **Cross-Platform Support**: With support for iOS, web apps (beta), and Android apps (future), development efforts are consolidated, limiting integration work for multiple platforms.
 4. **Streamlined Testing and Debugging**: Pre-tested components and integrated tools reduce time spent on debugging and quality assurance.
 
 ### Cost Savings
 
-1. **Reduced Developer Hours**: Leveraging low-code tools minimizes the amount of manual coding required, leading to lower developer hours and costs.
+1. **Reduced Developer Hours**: Leveraging low-code tools minimizes the amount of manual coding required, leading to lower developer hours and costs for **higher-quality results**.
 2. **Smaller Development Teams**: With RAD technologies, a smaller team can accomplish what would traditionally require a larger team of developers, designers, and testers.
-3. **Reduced Maintenance Costs**:  Built-in features like offline-first capabilities, conflict resolution, and automated synchronization reduce the need for ongoing maintenance and troubleshooting.
+3. **Reduced Maintenance Costs**:  Built-in features like off-the-self frameworks, analytics, conflict resolution, and automated synchronization reduce the impact on maintenance and troubleshooting.
 4. **Lower Infrastructure Costs**: Scalable BaaS and data lake solutions eliminate the need for custom-built backend systems, significantly lowering operational and hosting costs.
 
 # Getting Started Guide
