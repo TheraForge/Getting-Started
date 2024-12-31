@@ -215,8 +215,6 @@ For further assistance, visit the respective GitHub repositories linked in the f
 
 By using RAD technologies like TheraForge, healthcare organizations can accelerate time-to-market, reduce upfront and ongoing costs, and focus their resources on delivering innovative, secure, and high-quality solutions tailored to their users' needs. This makes RAD an ideal approach for the rapidly evolving digital health landscape.
 
-*Note: The information provided is based on the available data from the TheraForge GitHub repository and related sources.*
-
 # License
 
 This project is made available under the terms of a modified BSD license. See the [LICENSE](../../../OTFToolBox/blob/main/LICENSE.md) file.
