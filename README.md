@@ -19,10 +19,12 @@
     - [OTFTemplateBox](#otftemplatebox)
     - [OTFMagicBox](#otfmagicbox)
     - [OTFUtilities](#otfutilities)
-13. [Security](#security)
-14. [Installation](#installation)
-15. [Conclusion](#conclusion)
-16. [License](#license)
+6. [Security](#security)
+7. [Installation](#installation)
+8. [Conclusion](#conclusion)
+9. [License](#license)
+
+---
 
 # Introduction
 
@@ -165,6 +167,10 @@ OTFResearchKit is a fork of Apple's ResearchKit, an open-source framework that s
 
 OTFToolBox serves as TheraForge's umbrella framework, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
 
+See also:
+
+[ToolBox Features](../../../OTFToolBox#Features)
+
 ## OTFDesignSystem
 
 OTFDesignSystem is TheraForge's design system tailored for iOS apps, providing a cohesive set of design guidelines and components. It ensures consistency and ompatibility with accessibility technologies, enhancing the user experience across digital health applications. [Learn more](https://github.com/TheraForge/OTFDesignSystem).
@@ -181,6 +187,10 @@ OTFUtilities is TheraForge's utility framework that provides various helper func
 
 OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
 
+See also:
+
+[MagicBox Features](../../../OTFMagicBox#Features)
+
 # Security
 
 TheraForge prioritizes data security with quantum-safe end-to-end encryption. All user data is secured during transmission and storage, ensuring compliance with the highest data protection standards. The platform also supports secure authentication mechanisms, audit trails, and robust access controls to safeguard sensitive health information.
@@ -191,12 +201,6 @@ The code is analyzed and tested for security vulnerabilities and the use of TLS 
 <p align="center"><img src="Docs/1-CloudBox-sonarqube-overview.png" width=100% height=100%></p>
 
 <p align="center"><img src="Docs/2-TLS-1.3-Support.png" width=100% height=100%></p>
-
-See also:
-
-[MagicBox Features](../../../OTFMagicBox#Features)
-
-[ToolBox Features](../../../OTFToolBox#Features)
 
 
 # Installation
@@ -215,10 +219,16 @@ For further assistance, visit the respective GitHub repositories linked in the f
 
 By using RAD technologies like TheraForge, healthcare organizations can accelerate time-to-market, reduce upfront and ongoing costs, and focus their resources on delivering innovative, secure, and high-quality solutions tailored to their users' needs. This makes RAD an ideal approach for the rapidly evolving digital health landscape.
 
+</br>
+
+---
+
 # License
 
 This project is made available under the terms of a modified BSD license. See the [LICENSE](../../../OTFToolBox/blob/main/LICENSE.md) file.
 
+
+---
 
 
 
