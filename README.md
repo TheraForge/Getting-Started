@@ -43,6 +43,10 @@ The overall architecture is described in the following figure:
 <br />
 <br />
 <p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=80% height=80%></p>
+<br />
+<br />TheraForge CloudBox BaaS:
+<br />
+<p align="center"><img src="Docs/4-BaaS Diagram.main.jpeg" width=80% height=80%></p>
 
 # RAD Benefits
 
@@ -79,11 +83,13 @@ TheraForge's main components are:
 5. An analytics portal to review server- and client-related statistics.
 6. A no-code template app called [MagicBox](../../../OTFMagicBox).
 
-Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities. You can use the *TheraForge Client Registration form* for your queries:
+> [!IMPORTANT]
+>Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities.
 
-**[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)**
-
-**Note: To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use the registration form to obtain an API key.**
+> [!NOTE]
+> **To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use this [registration form](../../../OTFMagicBox#register-a-new-api-key) to obtain a test API key.**
+>
+> You can also use the *TheraForge Client Registration form* for your queries: **[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)**
 
 # Reasons to Use TheraForge
 
@@ -167,9 +173,8 @@ OTFResearchKit is a fork of Apple's ResearchKit, an open-source framework that s
 
 OTFToolBox serves as TheraForge's umbrella framework, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
 
-See also:
-
-[ToolBox Features](../../../OTFToolBox#Features)
+> [!NOTE]
+> See also: [ToolBox Features](../../../OTFToolBox#Features)
 
 ## OTFDesignSystem
 
@@ -187,15 +192,14 @@ OTFUtilities is TheraForge's utility framework that provides various helper func
 
 OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
 
-See also:
-
-[MagicBox Features](../../../OTFMagicBox#Features)
+> [!NOTE]
+> See also: [MagicBox Features](../../../OTFMagicBox#Features)
 
 # Security
 
 TheraForge prioritizes data security with quantum-safe end-to-end encryption. All user data is secured during transmission and storage, ensuring compliance with the highest data protection standards. The platform also supports secure authentication mechanisms, audit trails, and robust access controls to safeguard sensitive health information.
 
-The code is analyzed and tested for security vulnerabilities and the use of TLS 1.3 with forward secrecy is verified:
+The code is analyzed and tested for **security vulnerabilities and the use of TLS 1.3** with forward secrecy is verified:
 <br />
 <br />
 <p align="center"><img src="Docs/1-CloudBox-sonarqube-overview.png" width=100% height=100%></p>
@@ -213,7 +217,8 @@ To install MagicBox or ToolBox, you can refer to the dedicated installation sect
 
 For a newbie, **MagicBox is the perfect starting point!**
 
-For further assistance, visit the respective GitHub repositories linked in the framework descriptions.
+> [!NOTE]
+> For further assistance, visit the respective GitHub repositories linked to in the frameworks' descriptions above.
 
 # Conclusion
 
