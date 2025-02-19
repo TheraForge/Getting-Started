@@ -3,15 +3,8 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [RAD Benefits](#rad-benefits)
-    - [Time Savings](#time-savings)
-    - [Cost Savings](#cost-savings) 
-3. [Getting Started Guide](#getting-started-guide)
-4. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
-    - [Technology Advantages](#technology-advantages)
-    - [TheraForge Benefits](#theraforge-benefits)
-    - [TheraForge Features](#theraforge-features)
-5. [List of Components](#list-of-components)
+2. [Getting Started Guide](#getting-started-guide)
+4. [List of Components](#list-of-components)
     - [CareKit](#carekit)
     - [ResearchKit](#researchkit)
     - [OTFToolBox](#otftoolbox)
@@ -19,10 +12,17 @@
     - [OTFTemplateBox](#otftemplatebox)
     - [OTFMagicBox](#otfmagicbox)
     - [OTFUtilities](#otfutilities)
-6. [Security](#security)
-7. [Installation](#installation)
-8. [Conclusion](#conclusion)
-9. [License](#license)
+5. [RAD Benefits](#rad-benefits)
+    - [Time Savings](#time-savings)
+    - [Cost Savings](#cost-savings) 
+6. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
+    - [Technology Advantages](#technology-advantages)
+    - [TheraForge Benefits](#theraforge-benefits)
+    - [TheraForge Features](#theraforge-features)
+7. [Security](#security)
+8. [Installation](#installation)
+9. [Conclusion](#conclusion)
+10. [License](#license)
 
 ---
 
@@ -42,11 +42,68 @@ The client SDK also integrates with a **web-based dashboard** for medical data c
 The overall architecture is described in the following figure:
 <br />
 <br />
-<p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=80% height=80%></p>
+<p align="center"><img src="Docs/3-TheraForge-Architecture.png" width=90% height=90%></p>
 <br />
 <br />TheraForge CloudBox BaaS:
-<br />
-<p align="center"><img src="Docs/4-BaaS Diagram.main.jpeg" width=80% height=80%></p>
+<p align="center"><img src="Docs/4-BaaS Diagram.main.jpeg" width=100% height=100%></p>
+
+# Getting Started Guide
+
+You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
+
+TheraForge's main components are:
+
+1. A powerful modular SDK for app development called [ToolBox](../../../OTFToolBox).
+2. An optimized Design System framework and design objects.
+3. A multi-cloud backend service called CloudBox (see the [Cloud Setup](../../../OTFToolBox#theraforge-cloud-setup) section).
+4. A web-based doctor/patient dashboard.
+5. An analytics portal to review server- and client-related statistics.
+6. A no-code template app called [MagicBox](../../../OTFMagicBox).
+
+> [!IMPORTANT]
+>Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities.
+
+> [!NOTE]
+> **To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use this [registration form](../../../OTFMagicBox#register-a-new-api-key) to obtain a test API key.**
+>
+> You can also use the *TheraForge Client Registration form* for your queries: **[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)**
+
+# List of Components
+
+## CareKit
+
+OTFCareKit is a fork of **Apple's CareKit**, providing an open-source framework for creating apps that help users better understand and manage their health. It offers modules that can be used out of the box or customized for specific use cases. [Learn more](https://github.com/TheraForge/OTFCareKit).
+
+## ResearchKit
+
+OTFResearchKit is a fork of **Apple's ResearchKit**, an open-source framework that simplifies creating apps for medical and other research projects. It provides tools for obtaining informed consent, conducting surveys, and performing active tasks. [Learn more](https://github.com/TheraForge/OTFResearchKit).
+
+## OTFToolBox
+
+OTFToolBox serves as **TheraForge's umbrella framework**, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
+
+> [!NOTE]
+> See also: [ToolBox Features](../../../OTFToolBox#Features)
+
+## OTFDesignSystem
+
+OTFDesignSystem is TheraForge's **design system** tailored for iOS apps, providing a cohesive set of design guidelines and components. It ensures consistency and ompatibility with accessibility technologies, enhancing the user experience across digital health applications. [Learn more](https://github.com/TheraForge/OTFDesignSystem).
+
+## OTFTemplateBox
+
+OTFTemplateBox is a fully customizable **zero-code template framework** that enables app customization. It allows developers to modify app designs and functionalities effortlessly, facilitating rapid prototyping and deployment. [Learn more](https://github.com/TheraForge/OTFTemplateBox).
+
+## OTFUtilities
+
+OTFUtilities is TheraForge's utility framework that provides various helper functions, including end-to-end encryption. It enhances security and simplifies common tasks within digital health applications. [Learn more](https://github.com/TheraForge/OTFUtilities).
+
+## OTFMagicBox
+
+OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
+
+> [!NOTE]
+> See also: [MagicBox Features](../../../OTFMagicBox#Features)
+
 
 # RAD Benefits
 
@@ -69,27 +126,6 @@ Using a **low-code meta-platform** such as TheraForge for rapid application deve
 3. **Reduced Maintenance Costs**:  Built-in features like off-the-self frameworks, analytics, conflict resolution, and automated synchronization reduce the impact on maintenance and troubleshooting.
 4. **Lower Infrastructure Costs**: Scalable BaaS and data lake solutions eliminate the need for custom-built backend systems, significantly lowering operational and hosting costs.
 </details>
-
-# Getting Started Guide
-
-You can start using TheraForge for free and even contribute to its development on GitHub by opening issues and submitting pull requests.
-
-TheraForge's main components are:
-
-1. A powerful modular SDK for app development called [ToolBox](../../../OTFToolBox).
-2. An optimized Design System framework and design objects.
-3. A multi-cloud backend service called CloudBox (see the [Cloud Setup](../../../OTFToolBox#theraforge-cloud-setup) section).
-4. A web-based doctor/patient dashboard.
-5. An analytics portal to review server- and client-related statistics.
-6. A no-code template app called [MagicBox](../../../OTFMagicBox).
-
-> [!IMPORTANT]
->Hippocrates Technologies provides free and paid tiers for the use of the BaaS service. Request a quote for personalized projects and for co-development opportunities.
-
-> [!NOTE]
-> **To create a cloud account to use with ToolBox or MagicBox (as described in the Cloud Setup section linked above), you can use this [registration form](../../../OTFMagicBox#register-a-new-api-key) to obtain a test API key.**
->
-> You can also use the *TheraForge Client Registration form* for your queries: **[Submit a request](https://docs.google.com/forms/d/e/1FAIpQLSfYDEx-Cnja_YE6iUFs08pxxLThlV76TAJ2uB7ymuUXbky9iA/viewform)**
 
 # Reasons to Use TheraForge
 
@@ -158,42 +194,6 @@ TheraForge's main components are:
 
 **Much more still to come...**
 </details>
-
-# List of Components
-
-## CareKit
-
-OTFCareKit is a fork of Apple's CareKit, providing an open-source framework for creating apps that help users better understand and manage their health. It offers modules that can be used out of the box or customized for specific use cases. [Learn more](https://github.com/TheraForge/OTFCareKit).
-
-## ResearchKit
-
-OTFResearchKit is a fork of Apple's ResearchKit, an open-source framework that simplifies creating apps for medical and other research projects. It provides tools for obtaining informed consent, conducting surveys, and performing active tasks. [Learn more](https://github.com/TheraForge/OTFResearchKit).
-
-## OTFToolBox
-
-OTFToolBox serves as TheraForge's umbrella framework, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
-
-> [!NOTE]
-> See also: [ToolBox Features](../../../OTFToolBox#Features)
-
-## OTFDesignSystem
-
-OTFDesignSystem is TheraForge's design system tailored for iOS apps, providing a cohesive set of design guidelines and components. It ensures consistency and ompatibility with accessibility technologies, enhancing the user experience across digital health applications. [Learn more](https://github.com/TheraForge/OTFDesignSystem).
-
-## OTFTemplateBox
-
-OTFTemplateBox is a fully customizable zero-code template framework that enables app customization. It allows developers to modify app designs and functionalities effortlessly, facilitating rapid prototyping and deployment. [Learn more](https://github.com/TheraForge/OTFTemplateBox).
-
-## OTFUtilities
-
-OTFUtilities is TheraForge's utility framework that provides various helper functions, including end-to-end encryption. It enhances security and simplifies common tasks within digital health applications. [Learn more](https://github.com/TheraForge/OTFUtilities).
-
-## OTFMagicBox
-
-OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
-
-> [!NOTE]
-> See also: [MagicBox Features](../../../OTFMagicBox#Features)
 
 # Security
 
