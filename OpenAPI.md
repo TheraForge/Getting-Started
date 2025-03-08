@@ -141,7 +141,6 @@ For example, if an authentication token is missing:
 ---
 
 🚀 **Start building with TheraForge CloudBox today!** 🚀
-```
 
 ---
 
