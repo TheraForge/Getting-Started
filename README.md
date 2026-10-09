@@ -136,9 +136,13 @@ TheraForge's main components are:
 
 ## CareKit
 
+<p align="left"><img src="Docs/5-CareKit-logo.jpeg" width=15%</p>
+
 OTFCareKit is a fork of **Apple's CareKit**, providing an open-source framework for creating apps that help users better understand and manage their health. It offers modules that can be used out of the box or customized for specific use cases. [Learn more](https://github.com/TheraForge/OTFCareKit).
 
 ## ResearchKit
+
+<p align="left"><img src="Docs/7-ResearchKit-logo.jpeg" width=15%</p>
 
 OTFResearchKit is a fork of **Apple's ResearchKit**, an open-source framework that simplifies creating apps for medical and other research projects. It provides tools for obtaining informed consent, conducting surveys, and performing active tasks. [Learn more](https://github.com/TheraForge/OTFResearchKit).
 
