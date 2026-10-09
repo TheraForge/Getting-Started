@@ -2,9 +2,11 @@
 
 # Table of Contents
 
-1. [Introduction](#introduction)
-2. [Getting Started Guide](#getting-started-guide)
-4. [List of Components](#list-of-components)
+1. [Overview: Why TheraForge?](#overview-why-theraforge)
+2. [Who is TheraForge for?](#who-is-theraforge-for)
+3. [Architecture](#architecture)
+4. [Getting Started Guide](#getting-started-guide)
+5. [List of Components](#list-of-components)
     - [CareKit](#carekit)
     - [ResearchKit](#researchkit)
     - [OTFToolBox](#otftoolbox)
@@ -12,27 +14,89 @@
     - [OTFTemplateBox](#otftemplatebox)
     - [OTFMagicBox](#otfmagicbox)
     - [OTFUtilities](#otfutilities)
-5. [RAD Benefits](#rad-benefits)
+6. [RAD Benefits](#rad-benefits)
     - [Time Savings](#time-savings)
     - [Cost Savings](#cost-savings) 
-6. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
+7. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
     - [Technology Advantages](#technology-advantages)
     - [TheraForge Benefits](#theraforge-benefits)
     - [TheraForge Features](#theraforge-features)
-7. [Security](#security)
-8. [Installation](#installation)
-9. [Conclusion](#conclusion)
-10. [License](#license)
+8. [Security](#security)
+9. [Installation](#installation)
+10. [Conclusion](#conclusion)
+11. [License](#license)
 
 ---
 
-# Introduction
+## Overview: Why TheraForge?
+
+* Want to **rapidly develop digital-health applications** without building the entire digital-health stack yourself, with an agentic AI productivity booster?
+* Looking for a **Firebase mBaaS replacement** that is optimized for wellness applications or that is simply cheaper with a deterministic pricing?
+* Searching for a solution that natively supports **Apple Watch apps** or connectivity to **medical IoT devices**?
+* Need to quickly assemble a digital-health research **app prototype** or a student project starting from a **sandbox "UI lab" environment**?
+* Looking for a **privacy-first app architecture** with native security and **full offline-first behavior**? Which can integrate **AI on-device** for maximum security or work **in the cloud**, for example, on aggregated anonymized data?
+* Or simply looking to create a patient-reported outcomes (PROs) application with **native end-to-end encryption** to satisfy privacy regulations?
+
+**Then TheraForge is the solution that can help you.** 
+
+TheraForge is an open development *meta-platform* that combines in a single ecosystem:
+* **A professional mobile frontend SDK**
+* **A customizable app design system framework**
+* **An offline-first mobile Backend-as-a-Service (mBaaS)**
+* **A secure health-data infrastructure with A+ TLS security and quantum-safe E2EE, using multiple auditing tools for security assessment and penetration testing analysis**
+* **Ready-to-use digital-health components**
+
+If you are looking for a **Firebase alternative**, TheraForge gives you more than a backend: **ToolBox** provides the application layer, while **CloudBox** provides secure cloud storage, synchronization, APIs and a scalable health-data lake. Instead of assembling the frontend, backend, offline synchronization, health UI and device integrations yourself, you start with them already integrated.
+
+**Build privacy-first applications.** TheraForge provides native support for end-to-end encryption and secure data handling, making privacy a platform capability rather than an afterthought. This is particularly suited to applications handling sensitive health, research and IoT data.
+
+**Build Apple Watch-ready applications.** ToolBox and MagicBox provide a foundation for iPhone and Apple Watch experiences, including health data and synchronized workflows—without requiring you to build the wearable architecture from scratch.
+
+**Prototype, experiment and learn with MagicBox UI Lab.** Students and researchers can explore configurable digital-health UI components, health-data cards, YAML-driven application configuration, educational content, ResearchKit/CareKit workflows and experimental features. Fork MagicBox and turn an experiment into a real application.
+
+**Collect and use health data with CloudBox.** Connect medical IoT devices, wearables and mobile applications to a secure data backend designed for longitudinal health-data collection, synchronization and exchange with external systems.
+
+**Extend applications with AI.** Use TheraForge as the application and data foundation for AI-enabled solutions, running inference privately on-device or processing appropriately protected and anonymized datasets in the cloud.
+
+**Complete the workflow with WorkBox.** Use the ready-to-customize web/PWA dashboard as a starting point for patient-reported outcomes, monitoring, research and virtual-care workflows.
+
+### One platform. Multiple starting points.
+
+**Start with the component you need. Grow into the complete platform.**
+
+## Who is TheraForge for?
+
+### 🚀 Developers
+
+**A Firebase alternative for digital health/wellness/fitness and other categories**
+
+Build faster with an integrated frontend + mBaaS stack.
+
+### 🔐 Privacy-focused developers
+
+**Build privacy-first applications**
+
+Native dual-layered A+ encryption and full offline-first architecture for sensitive data.
+
+### ⌚ Researchers & health innovators
+
+**Apple Watch + health data + research**
+
+Prototype IoT-based and digital-health studies rapidly.
+
+### 🎓 Students
+
+**Experiment without building everything from scratch**
+
+Use MagicBox UI Lab, with YAML-based customization and styling and educational content for projects and theses.
+
+# Architecture
 
 TheraForge is an *open **low-code SDK*** and an *offline-first **Backend-as-a-Service (BaaS)*** designed for the rapid application development (RAD) of digital health solutions on Apple iOS for *iPhone and Apple Watch*.
 
 TheraForge streamlines the creation of healthcare applications by providing a comprehensive suite of tools and frameworks, enabling developers to focus on delivering value without being bogged down by complex coding tasks.
 
-Support for *web apps (beta)* and *Android apps (future)* ensures versatility across platforms. IoT device integration enables seamless health data collection directly on mobile devices, and the BaaS includes a data lake for scalable data collection and storage.
+Support for *web apps* and *Android apps (PWA)* ensures versatility across platforms. IoT device integration enables seamless health data collection directly on mobile devices, and the BaaS includes a data lake for scalable data collection and storage.
 
 TheraForge is the aggregrate result of several years of development and incorporates **250K+ lines of code** distributed into **various frameworks** (listed below), with an associated **no-code template app**.
 
