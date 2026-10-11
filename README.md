@@ -119,7 +119,7 @@ TheraForge's main components are:
 
 1. A powerful modular SDK for app development called [ToolBox](../../../OTFToolBox).
 2. An optimized Design System framework and design objects.
-3. A multi-cloud backend service called CloudBox (see the [Cloud Setup](../../../OTFToolBox#theraforge-cloud-setup) section).
+3. A multi-cloud backend service called CloudBox (see the [TheraForge Cloud Setup](../../../OTFToolBox#theraforge-cloud-setup) section).
 4. A web-based doctor/patient dashboard.
 5. An analytics portal to review server- and client-related statistics.
 6. A no-code template app called [MagicBox](../../../OTFMagicBox).
@@ -157,7 +157,7 @@ OTFResearchKit is a fork of **Apple's ResearchKit**, an open-source framework th
 OTFToolBox serves as **TheraForge's umbrella framework**, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
 
 > [!NOTE]
-> See also: [ToolBox Features](../../../OTFToolBox#Features)
+> See also: [ToolBox Features](../../../OTFToolBox#toolbox-features)
 
 ## OTFDesignSystem
 
@@ -178,7 +178,7 @@ OTFUtilities is TheraForge's utility framework that provides various helper func
 OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
 
 > [!NOTE]
-> See also: [MagicBox Features](../../../OTFMagicBox#Features)
+> See also: [MagicBox Features](../../../OTFMagicBox#magicbox-features)
 
 
 # RAD Benefits
@@ -291,9 +291,9 @@ The code is analyzed and tested for **security vulnerabilities** and the use of 
 
 To install MagicBox or ToolBox, you can refer to the dedicated installation sections:
 
-[MagicBox Installation](../../../OTFMagicBox#Installation)
+[MagicBox Installation](../../../OTFMagicBox#installation)
 
-[ToolBox Installation](../../../OTFToolBox#Installation)
+[ToolBox Installation](../../../OTFToolBox#installation)
 
 For a newbie, **MagicBox is the perfect starting point!**
 
