@@ -140,6 +140,10 @@ TheraForge's main components are:
 
 OTFCareKit is a fork of **Apple's CareKit**, providing an open-source framework for creating apps that help users better understand and manage their health. It offers modules that can be used out of the box or customized for specific use cases. [Learn more](https://github.com/TheraForge/OTFCareKit).
 
+CareKit can leverage **Apple's HealthKit** framework to collect health metrics reported by IoT sensors and by the Apple Watch.
+
+<p align="left"><img src="Docs/6-HealthKit-logo.jpeg" width=13%</p>
+
 ## ResearchKit
 
 <p align="left"><img src="Docs/7-ResearchKit-logo.jpeg" width=15%</p>
@@ -267,15 +271,17 @@ Using a **low-code meta-platform** such as TheraForge for rapid application deve
 
 TheraForge prioritizes data security with quantum-safe end-to-end encryption. All user data is secured during transmission and storage, ensuring compliance with the highest data protection standards. The platform also supports secure authentication mechanisms, audit trails, and robust access controls to safeguard sensitive health information.
 
-The code is analyzed and tested for **security vulnerabilities and the use of TLS 1.3** with forward secrecy is verified:
+The code is analyzed and tested for **security vulnerabilities** and the use of **TLS 1.3 with forward secrecy** is verified:
 <br />
 <br />
-<p align="center"><img src="Docs/1-CloudBox-sonarqube-overview.png" width=100% height=100%></p>
 
 <p align="center"><img src="Docs/2-TLS-1.3-Support.png" width=100% height=100%></p>
 
 <p align="center"><img src="Docs/8-testssl.png" width=100% height=100%></p>
 
+<p align="center"><img src="Docs/10-OTFCloudBox-SonarQube.png" width=100% height=100%></p>
+
+<p align="center"><img src="Docs/11-OTFCloudBox-OWASP-Dependency-Checker.png" width=100% height=100%></p>
 
 # Installation
 
