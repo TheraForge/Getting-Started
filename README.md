@@ -146,11 +146,13 @@ CareKit can leverage **Apple's HealthKit** framework to collect health metrics r
 
 ## ResearchKit
 
-<p align="left"><img src="Docs/7-ResearchKit-logo.jpeg" width=15%</p>
+<p align="left"><img src="Docs/7-ResearchKit-logo.jpeg" width=16%</p>
 
 OTFResearchKit is a fork of **Apple's ResearchKit**, an open-source framework that simplifies creating apps for medical and other research projects. It provides tools for obtaining informed consent, conducting surveys, and performing active tasks. [Learn more](https://github.com/TheraForge/OTFResearchKit).
 
 ## OTFToolBox
+
+<p align="left"><img src="Docs/12-TheraForge-ToolBox.jpg" width=14%</p>
 
 OTFToolBox serves as **TheraForge's umbrella framework**, incorporating various sub-frameworks to facilitate rapid application development of digital health solutions on iOS. It streamlines the integration of multiple components necessary for building comprehensive health applications. [Learn more](https://github.com/TheraForge/OTFToolBox).
 
@@ -170,6 +172,8 @@ OTFTemplateBox is a fully customizable **zero-code template framework** that ena
 OTFUtilities is TheraForge's utility framework that provides various helper functions, including end-to-end encryption. It enhances security and simplifies common tasks within digital health applications. [Learn more](https://github.com/TheraForge/OTFUtilities).
 
 ## OTFMagicBox
+
+<p align="left"><img src="Docs/13-TheraForge-MagicBox.jpg" width=14%</p>
 
 OTFMagicBox is a **zero-code template app** demonstrating how to use TheraForge's APIs. It serves as a model for fast prototyping, allowing developers to quickly build and test digital health solutions. [Learn more](https://github.com/TheraForge/OTFMagicBox).
 
