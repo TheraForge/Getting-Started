@@ -279,13 +279,29 @@ The code is analyzed and tested for **security vulnerabilities** and the use of 
 <br />
 <br />
 
+**Test SSL/TLS**
+
 <p align="center"><img src="Docs/2-TLS-1.3-Support.png" width=100% height=100%></p>
 
 <p align="center"><img src="Docs/8-testssl.png" width=100% height=100%></p>
 
+<br />
+
+**SonarQube Report**
+
 <p align="center"><img src="Docs/10-OTFCloudBox-SonarQube.png" width=100% height=100%></p>
 
+<br />
+
+**OWASP Dependency Checker**
+
 <p align="center"><img src="Docs/11-OTFCloudBox-OWASP-Dependency-Checker.png" width=100% height=100%></p>
+
+<br />
+
+**ZAP Report**
+
+<p align="center"><img src="Docs/14-ZAP-Report.png" width=100% height=100%></p>
 
 # Installation
 
