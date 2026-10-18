@@ -1,33 +1,5 @@
 # Getting Started Documentation
 
-# Table of Contents
-
-1. [Overview: Why TheraForge?](#overview-why-theraforge)
-2. [Who is TheraForge for?](#who-is-theraforge-for)
-3. [Architecture](#architecture)
-4. [Getting Started Guide](#getting-started-guide)
-5. [List of Components](#list-of-components)
-    - [CareKit](#carekit)
-    - [ResearchKit](#researchkit)
-    - [OTFToolBox](#otftoolbox)
-    - [OTFDesignSystem](#otfdesignsystem)
-    - [OTFTemplateBox](#otftemplatebox)
-    - [OTFMagicBox](#otfmagicbox)
-    - [OTFUtilities](#otfutilities)
-6. [RAD Benefits](#rad-benefits)
-    - [Time Savings](#time-savings)
-    - [Cost Savings](#cost-savings) 
-7. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
-    - [Technology Advantages](#technology-advantages)
-    - [TheraForge Benefits](#theraforge-benefits)
-    - [TheraForge Features](#theraforge-features)
-8. [Security](#security)
-9. [Installation](#installation)
-10. [Conclusion](#conclusion)
-11. [License](#license)
-
----
-
 ## Overview: Why TheraForge?
 
 * Want to **rapidly develop digital-health applications** without building the entire digital-health stack yourself, with an agentic AI productivity booster?
@@ -37,7 +9,58 @@
 * Looking for a **privacy-first app architecture** with native security and **full offline-first behavior**? Which can integrate **AI on-device** for maximum security or work **in the cloud**, for example, on aggregated anonymized data?
 * Or simply looking to create a patient-reported outcomes (PROs) application with **native end-to-end encryption** to satisfy privacy regulations?
 
-**Then TheraForge is the solution that can help you.** 
+**Then TheraForge is the solution that can help you: [learn more below.](#what-is-theraforge)**
+
+<h6 align="center">You can follow us on</h6>
+<p align="center">
+  <a aria-label="Follow TheraForge on X" href="https://x.com/intent/follow?screen_name=TheraForge" target="_blank">
+    <img alt="TheraForge on X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" target="_blank" />
+  </a>&nbsp;
+  <a aria-label="Follow TheraForge on GitHub" href="https://github.com/TheraForge" target="_blank">
+    <img alt="TheraForge on GitHub" src="https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
+  </a>&nbsp;
+  <a aria-label="Follow TheraForge on LinkedIn" href="https://www.linkedin.com/company/hippocrates-technologies" target="_blank">
+    <img alt="TheraForge on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+</p>
+
+<p align="center">
+&ensp;•&ensp;
+  <a aria-label="blog" href="https://www.hippocratestech.com/blog/">Learn more on our blog</a>
+&ensp;•&ensp;
+  <a aria-label="request" href="mailto:info@hippocratestech.com">Request a feature</a>
+</p>
+
+# Table of Contents
+
+1. [Overview: Why TheraForge?](#overview-why-theraforge)
+2. [What is TheraForge?](#what-is-theraforge)
+3. [Who is TheraForge for?](#who-is-theraforge-for)
+4. [Architecture](#architecture)
+5. [Getting Started Guide](#getting-started-guide)
+6. [List of Components](#list-of-components)
+    - [CareKit](#carekit)
+    - [ResearchKit](#researchkit)
+    - [OTFToolBox](#otftoolbox)
+    - [OTFDesignSystem](#otfdesignsystem)
+    - [OTFTemplateBox](#otftemplatebox)
+    - [OTFMagicBox](#otfmagicbox)
+    - [OTFUtilities](#otfutilities)
+7. [RAD Benefits](#rad-benefits)
+    - [Time Savings](#time-savings)
+    - [Cost Savings](#cost-savings) 
+8. [Reasons to Use TheraForge](#reasons-to-use-theraforge)
+    - [Technology Advantages](#technology-advantages)
+    - [TheraForge Benefits](#theraforge-benefits)
+    - [TheraForge Features](#theraforge-features)
+9. [Security](#security)
+10. [Installation](#installation)
+11. [Conclusion](#conclusion)
+12. [License](#license)
+
+---
+
+## What is TheraForge?
 
 TheraForge is an open development *meta-platform* that combines in a single ecosystem:
 * **A professional mobile frontend SDK**
