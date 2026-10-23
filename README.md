@@ -1,4 +1,4 @@
-# TheraForge Getting Started Documentation
+# Getting Started with TheraForge
 
 ## Overview: Why TheraForge?
 
@@ -10,6 +10,8 @@
 * Or simply looking to create a patient-reported outcomes (PROs) application with **native end-to-end encryption** to satisfy privacy regulations?
 
 **Then TheraForge is the solution that can help you: [learn more below.](#what-is-theraforge)**
+
+<h3 align="center">Forged by humans. Handcrafted with care.</h3>
 
 <h6 align="center">You can follow us on</h6>
 <p align="center">
