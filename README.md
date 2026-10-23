@@ -1,4 +1,4 @@
-# Getting Started Documentation
+# TheraForge Getting Started Documentation
 
 ## Overview: Why TheraForge?
 
